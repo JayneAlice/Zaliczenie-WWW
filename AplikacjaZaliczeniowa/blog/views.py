@@ -1,6 +1,7 @@
+from urllib import request
 from django.shortcuts import render
 
 # Create your views here.
 
-ef post_list(request):
+def post_list(request):
     return render(request, 'blog/post_list.html', {})
